@@ -150,4 +150,3 @@ if (savedLocalFAvs !== null) {
   favouritesCharacters = savedLocalFAvs;
   renderFavCharacters();
 }
-//# sourceMappingURL=main.js.map

@@ -1,10 +1,49 @@
-* {
-  box-sizing: border-box;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 .header {
   height: 200px;
@@ -66,6 +105,7 @@
   height: 26px; }
 
 .footer {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #b72651;
   width: 100%;
   height: 70px;
@@ -92,12 +132,77 @@
         .footer-text-span {
           font-size: 14px; } }
 
-.main {
-  width: 100%;
+.favorites {
+  padding-left: 50px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  gap: 20px; }
+  align-items: center; }
+  .favorites__resetBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b72651;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-top: 18px; }
+  .favorites__Title {
+    width: 235px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b72651; }
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-bottom: 43px; }
+  .characters__Title {
+    color: #b72651;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600; }
+  .characters___List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; }
+  .characters___Articles {
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 200px;
+    height: 300px;
+    padding-bottom: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px #b72651; }
+    .characters___Articles___Item {
+      text-align: center;
+      padding-top: 10px; }
+      .characters___Articles___Item--img {
+        width: 172px;
+        height: 250px;
+        -o-object-fit: cover;
+        object-fit: cover; }
+      .characters___Articles___Item--h3 {
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: 700; }
+      .characters___Articles___Item--p {
+        padding-top: 6px;
+        opacity: 60%; }
+
+.cards-lists-container {
+  display: flex;
+  padding-top: 100px;
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */
