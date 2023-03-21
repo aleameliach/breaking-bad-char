@@ -6,7 +6,7 @@
 const characterList = document.querySelector(".js-list");
 const btn = document.querySelector(".js-btn");
 const input = document.querySelector(".js-input");
-const favouritesList = document.querySelector("js-fav-cards");
+const favouritesList = document.querySelector(".js-favList");
 const resetBtn = document.querySelector(".js-reset-btn");
 
 // -----------------------------VARIABLES GLOBALES--------------
