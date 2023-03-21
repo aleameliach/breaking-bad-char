@@ -1,6 +1,13 @@
-$main-white: #f3f4f5;
 $main-pink: #BB0038;
 $main-yellow: rgb(230, 255, 0);
 $white: white;
-$sand: rgb(150, 160, 56);
+$olive: rgb(150, 160, 56);
 $purple: #3B0012;
+
+$font-main: 'Montserrat', sans-serif;
+
+
+$defaultFontSize: 16;
+@function rem($pixels) {
+  @return ($pixels / $defaultFontSize * 1rem);
+}

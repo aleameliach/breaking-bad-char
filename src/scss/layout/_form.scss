@@ -1,7 +1,7 @@
 .search {
-    background-color: $main-white;
-    height: 80px;
-    width: 80%;
+    background-color: $white;
+    height: rem(80);
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-40px);
@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: rem(20);
     @media all and (min-width: 768px) {
-      width: 60%;
+      width: 50%;
     }
   }
   
@@ -22,9 +22,9 @@
     color: whitesmoke;
     background-color: $main-pink;
     font-size: 14px;
-    padding: 2px;
-    height: 30px;
-    width: 60px;
+    padding: rem(2);
+    height: rem(30);
+    width: rem(60);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -32,8 +32,8 @@
    
   
     @media all and (min-width: 768px) {
-      height: 30px;
-      width: 80px;
+      height: rem(30);
+      width: rem(80);
       font-size: 16px;
     }
   }
@@ -44,8 +44,8 @@
   }
 
   .search-input {
-    padding-left: 10px;
+    padding-left: rem(10);
     border: 1px solid $main-pink;
     width: 60%;
-    height: 26px;
+    height: rem(26);
   }

@@ -1,5 +1,5 @@
 .header {
-  height: 200px;
+  height: rem(200);
   width: 100%;
   background-image: url(../images/banner.jpeg);
   background-position: center top;
@@ -7,7 +7,7 @@
   background-size: cover;
 
   @media all and (min-width: 768px) {
-    height: 350px;
+    height: rem(350);
     background-position: center top -40px;
     background-size: cover;
   }
