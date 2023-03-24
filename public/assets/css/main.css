@@ -46,16 +46,17 @@ table {
   border-spacing: 0; }
 
 .header {
+  top: 0;
   height: 12.5rem;
   width: 100%;
   background-image: url(../images/banner.jpeg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  border: 2px solid blue; }
   @media all and (min-width: 768px) {
     .header {
-      height: 21.875rem;
-      background-size: cover; } }
+      height: 21.875rem; } }
 
 .search {
   background-color: white;
@@ -115,13 +116,13 @@ table {
   align-items: center;
   padding: 0.625rem;
   bottom: 0;
-  gap: 0.4375rem; }
+  gap: 0.4375rem;
+  border: 2px solid red; }
   @media all and (min-width: 768px) {
     .footer {
       height: 1.875rem;
       padding: 0.3125rem;
-      position: fixed;
-      bottom: 0; } }
+      position: fixed; } }
   .footer-text {
     color: white;
     font-size: 12px; }
@@ -139,6 +140,7 @@ table {
   font-family: "Montserrat", sans-serif; }
 
 .main {
+  border: 2px solid purple;
   width: 100%; }
 
 .favorites {

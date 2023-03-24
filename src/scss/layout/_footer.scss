@@ -9,12 +9,13 @@
   padding: rem(10);
   bottom: 0;
   gap: rem(7);
+  border: 2px solid red;
+  
 
   @media all and (min-width: 768px) {
     height: rem(30);
     padding: rem(5);
     position: fixed;
-    bottom: 0;
   }
   &-text {
     color: $white;

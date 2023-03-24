@@ -1,13 +1,15 @@
 .header {
+  top: 0;
   height: rem(200);
   width: 100%;
   background-image: url(../images/banner.jpeg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 2px solid blue;
 
   @media all and (min-width: 768px) {
     height: rem(350);
-    background-size: cover;
+  
   }
 }
