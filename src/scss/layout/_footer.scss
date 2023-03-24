@@ -2,11 +2,13 @@
   font-family: Arial, Helvetica, sans-serif;
   background-color: $main-pink;
   width: 100%;
-  height: rem(70);
+  height: rem(50);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: rem(10);
+  bottom: 0;
+  gap: rem(7);
 
   @media all and (min-width: 768px) {
     height: rem(30);

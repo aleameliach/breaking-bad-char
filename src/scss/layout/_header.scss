@@ -2,13 +2,12 @@
   height: rem(200);
   width: 100%;
   background-image: url(../images/banner.jpeg);
-  background-position: center top;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media all and (min-width: 768px) {
     height: rem(350);
-    background-position: center top -40px;
     background-size: cover;
   }
 }
